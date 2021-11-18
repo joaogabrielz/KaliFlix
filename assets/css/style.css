@@ -1,0 +1,195 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body, nav, ul, li, a{
+   font-family: "Roboto", sans-serif;
+   text-decoration: none;
+   list-style: none;
+   outline: none;
+}
+body{
+    background-color: rgb(26, 25, 25);
+}
+a{
+    color: white;
+}
+a:hover{
+    opacity: 0.7;
+}
+.logo:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.logo{
+    color: rgb(224, 56, 56);
+    font-family: 'Bebas Neue', cursive;
+    font-size:1.5rem;
+
+}
+.cabecalho-logo,.menu-cabecalho,li,ul{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 1rem;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px 10px;
+}
+header{
+    background-color: rgb(27, 26, 24);
+    padding: 1px;
+}
+.secao-destaque{
+    background-color: gray;
+    background-image: url("../img/destaque.png");
+    background-size:cover ;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+.container {
+max-width: 1200px;
+margin: 0 auto;
+min-height: 90vh;
+   
+}
+.secao-destaque-descricao{
+    color: white;
+   width: 25em; 
+    font-size: 1.5rem;
+    letter-spacing: 0.5px;
+}
+.secao-destaque-descricao > p{
+   margin-top: 20px;
+}
+
+.secao-destaque-descricao h1{
+  padding-top: 8rem;
+}
+/*------*/
+.secaodestaque-menudestaque{
+ margin-top: 3rem;
+}
+.secaodestaque-menudestaque #play{
+    padding: 20px;
+    background-color: rgba(248, 242, 242, 0.877);
+    color: rgb(17, 16, 16);
+    border-radius: 7px;
+   
+
+}
+.secaodestaque-menudestaque img{
+    vertical-align: middle;
+    padding: 5px;
+
+}
+.secaodestaque-menudestaque #info{
+    background-color: rgba(248, 242, 242, 0.294);
+    padding: 20px;
+    border-radius: 7px;
+    margin-left: 0.20em;   
+}
+/*-----*/
+.secao_filmes{
+    color: rgb(247, 240, 240);
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    overflow-x: hidden;
+}
+.container_filmes{
+    overflow-x:scroll ;
+}
+.secaofilmes_em_alta{
+    max-width: 100%;
+    overflow-x:scroll ;
+    padding:2px 30px;
+    margin: 0 11rem;
+    
+}
+.secaofilmes_em_alta ,.secaofilmes_em_alta >h2{
+
+    transform: translateY(-90px);
+        
+}
+
+.secaofilmes_continuar_assistindo{
+    max-width: 100%;
+    overflow-x:scroll ;
+    padding:2px 30px;
+    margin: 0 11rem;
+}
+.secaofilmes_minhalista{
+    max-width: 100%;
+    overflow-x:scroll ;
+    padding:2px 30px;
+    margin: 0 11rem;
+}
+.secaofilmes_sonakali{
+    max-width: 100%;
+    overflow-x:scroll ;
+    padding:2px 30px;
+    margin: 0 11rem;
+}
+.secaofilmes_em_alta_top10{
+    margin: 0.5em auto;
+    width: 90vw;
+    align-items: center;
+
+    padding: 30px;
+    border-top: solid 1px rgba(192, 192, 192, 0.322);
+    border-bottom: solid 0.5px rgba(192, 192, 192, 0.322);
+}
+.secaofilmes_em_alta_top10 img{
+   min-width: 320px;
+}
+
+h2{
+    margin-left:11rem;
+    margin-top: 1rem;
+}
+/*--- */
+
+
+
+/* -------*/
+*{
+    scrollbar-width: thin;
+    scrollbar-color: #ffffffc5 #141414;
+}
+*::-webkit-scrollbar {
+    width: 10px;
+}
+
+/**::-webkit-scrollbar-track {
+    background: #141414;
+}*/
+
+*::-webkit-scrollbar-thumb {
+    background-color: #ffffffc5;
+    border-radius: 20px;
+    border: 3px solid #141414;
+}
+.rodape{
+    padding: 0 20px;
+    margin: 30px;
+    color: #808080;
+   align-items: center;
+  
+
+}
+.rodape-midias ul {
+    display: flex;
+
+}
+.rodape-midias ul li{
+    margin-right: ;
+
+}
+.rodape-menu {
+
+    
+}
