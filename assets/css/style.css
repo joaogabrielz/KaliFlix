@@ -258,9 +258,9 @@ display: flex;
   #play { 
     justify-content: center;
     align-items: center;
-    padding: 5px 5px 1px 7px !important;
-    width: 55px !important;
-    border-radius: 18px !important;
+    padding: 5px 8px 1px 6px !important;
+    width: 50px !important;
+    border-radius: 19px !important;
     background-color: rgba(255, 255, 255, 0.651) !important;
   }
   #play img{ 
@@ -270,10 +270,10 @@ display: flex;
   #info { 
     justify-content: center ;
     align-items: center;
-    padding: 5px 5px 5px 8px !important;
-    width: 55px !important;
+    padding: 5px 10px 5px 5px !important;
+    width: 50px !important;
     margin-top: 2px;
-    border-radius: 18px !important;
+    border-radius: 19px !important;
     background-color: rgba(105, 82, 82, 0.603) !important;
   }
   #info img{ 
@@ -346,5 +346,10 @@ display: flex;
    }
    .secaofilmes_sonakali{
         margin: 0.5rem;
+   }
+   .rodape{
+       display: flex;
+       justify-content: center;
+       overflow-x: hidden;
    }
 }
