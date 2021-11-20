@@ -53,7 +53,7 @@ header{
 .container {
 max-width: 1200px;
 margin: 0 auto;
-min-height: 90vh;
+min-height: 100vh;
 
    
 }
@@ -100,17 +100,18 @@ min-height: 90vh;
     flex-wrap: nowrap;
     align-items: center;
     overflow-x: hidden;
-
 }
 .container_filmes{
     overflow-x:scroll ;
+    margin-bottom: 20px;
+    
 }
 .secaofilmes_em_alta{
     max-width: 100%;
     overflow-x:scroll ;
     padding:2px 30px;
     margin: 0 11rem;
-    
+   
 }
 
 
@@ -216,12 +217,14 @@ display: flex;
 }
 @media screen and (max-width: 620px){
   
-    .cabecalho-logo .menu-cabecalho ul{
+    .cabecalho-logo .menu-cabecalho {
         display:none;
         align-items: center;
         text-align: center;
         justify-content: space-between;
+        
     }
+   
 
     .secao-destaque{
         padding:0px 0px 0px 30px;
@@ -255,7 +258,7 @@ display: flex;
   #play { 
     justify-content: center;
     align-items: center;
-    padding: 5px 5px 1px 6px !important;
+    padding: 5px 5px 1px 7px !important;
     width: 55px !important;
     border-radius: 18px !important;
     background-color: rgba(255, 255, 255, 0.651) !important;
@@ -267,7 +270,7 @@ display: flex;
   #info { 
     justify-content: center ;
     align-items: center;
-    padding: 5px 5px 3px 6px !important;
+    padding: 5px 5px 5px 8px !important;
     width: 55px !important;
     margin-top: 2px;
     border-radius: 18px !important;
@@ -276,18 +279,72 @@ display: flex;
   #info img{ 
     width: 40px !important;
   }
-
-    .rodape .rodape-menu{
-        display: flex;
-        justify-content: space-between;
-    }
     
     .secao_filmes{
-        display: flex;
-        transform: translateY(-20px);
+        
         margin-bottom: 40px;
+        flex-wrap: nowrap;
+      padding: 10px 0px 0px 0px !important;
+      margin: 0 auto;
+      width:100%;
+ 
+    }
+    .container_filmes{
+        padding: 0px!important;
+        margin: 0 auto;
         
     }
-
-
+    .container_filmes h2{
+        margin-left: 0.5rem;
+    }
+    .secaofilmes_em_alta{
+        padding: 0px 0px 0px 0rem !important;
+        margin: 0 auto;
+       
+     
+    }
+    .secaofilmes_continuar_assistindo{
+        padding: 0px 0px 0px 0rem !important;
+        margin: 0 auto;
+      
+    }
+    .secaofilmes_minhalista{
+        padding: 0px 0px 0px 0rem !important;
+        margin: 0 auto;
+     
+    }
+    .secaofilmes_sonakali{
+        padding: 0px 0px 0px 0rem !important;
+        margin: 0 auto;
+        
+      /*  overflow-x: hidden;*/
+    }
+    .secao_filmes_top10{
+      padding: 10px 0px 0px 0px !important;
+      
+      display: flex;
+      flex-direction: column;
+      overflow-x: scroll;
+    }
+    .secaofilmes_em_alta_top10{
+        margin:0 39rem;
+    }
+   
+}
+@media screen and (max-width: 500px){
+   .cabecalho-config{
+       display: none;
+   }
+   .secaofilmes_em_alta{
+       margin: 0.5rem;
+   }
+   .secaofilmes_continuar_assistindo{
+    margin: 0.5rem;
+   }
+   .secaofilmes_minhalista{
+    margin: 0.5rem;
+   }
+   .secaofilmes_sonakali{
+        margin: 0.5rem;
+   }
 }
